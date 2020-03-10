@@ -1,5 +1,5 @@
 variable "envPrefix" {
-  default = "POC-BlueGreen-change-dev1"
+  default = "POC-BlueGreen-change-dev2"
 }
 
 variable "azs" {
