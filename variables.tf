@@ -7,6 +7,11 @@ variable "azs" {
   default     = "us-west-2a,us-west-2b"
 }
 
+variable "awsRegion" {
+  description = "region"
+  default     = "us-west-2"
+}
+
 variable "ProjectTag" {
   description = "comma separated ordered lists of AZs in which to distribute subnets"
   default     = "us-west-2a,us-west-2b"
